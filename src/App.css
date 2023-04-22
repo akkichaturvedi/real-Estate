@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.scroll-custom::-webkit-scrollbar {
+    height: 4px;
+}
+.scroll-custom::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right , rgb(94, 141, 156) , rgb(31, 135, 177) );
+}
