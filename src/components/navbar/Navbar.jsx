@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className={`w-[50%] max-sm:${isToggle ? "hidden" : "block"} max-sm:fixed max-sm:top-12 max-sm:right-0 max-sm:w-[60%] max-sm:flex-col max-sm:z-[999]`}>
                 <div className='w-full max-sm:h-screen max-sm:bg-black max-sm:z-[999]'>
                     <ul className={`max-sm:flex max-sm:justify-between p-3 ${style.mdStyle} ${style.smStyle} list-none text-gray-400  max-sm:flex-col`}>
-                        <li className='text-white max-sm:text-inherit cursor-pointer max-sm:mt-2'>Home</li>
+                        <Link to={"/"}><li className='text-white max-sm:text-inherit cursor-pointer max-sm:mt-2'>Home</li></Link>
                         <li className='cursor-pointer max-sm:mt-2'>Product</li>
                         {/* <li className='cursor-pointer max-sm:mt-2'>Find a Team</li> */}
                         <Link to={"/about"}><li className='cursor-pointer max-sm:mt-2'>About us</li></Link>
