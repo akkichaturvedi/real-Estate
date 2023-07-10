@@ -28,6 +28,25 @@ const Contact = () => {
                 </div>
             </div>
 
+            <div className="w-full bg-orange-300 text-center flex items-center flex-col mt-8">
+                <h1 className="mt-4 text-[40px] font-bold ">Find us</h1>
+                <div className="md:w-[60%] sm:w-[75%] max-sm:[90%] flex items-center p-6 m-6 bg-white border rounded-lg max-sm:flex-col">
+                    <div className="w-[40%] h-full max-sm:w-full">
+                        comapny image here
+                    </div>
+                    <div className="w-[60%] h-full ml-6  max-sm:w-full">
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                        <p>company address</p>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex mt-10 mb-10 p-2 items-center justify-start bg-white">
                 <div className="mx-auto w-full max-w-lg  border rounded-lg px-12 py-6 shadow-lg">
                     <h1 className="text-4xl font-bold">Contact us</h1>
