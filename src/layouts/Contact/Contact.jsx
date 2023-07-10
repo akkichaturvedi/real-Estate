@@ -12,16 +12,16 @@ const Contact = () => {
                 <h3 className="mt-3  text-[20px]">
                     Write to us
                 </h3>
-                <div className="w-full mt-6 flex justify-evenly items-center">
-                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl">
+                <div className="w-full mt-6 flex justify-evenly items-center max-sm:flex flex-wrap">
+                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl m-1">
                         <h3 className="mb-2 font-bold text-[20px]">Enquiries</h3>
                         <h5 className="">mailAddress</h5>
                     </div>
-                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl">
+                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl m-1">
                         <h3 className="mb-2 font-bold text-[20px]">Enquiries</h3>
                         <h5 className="">mailAddress</h5>
                     </div>
-                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl">
+                    <div className="text-center py-4 px-8 border rounded-lg shadow-2xl m-1">
                         <h3 className="mb-2 font-bold text-[20px]">Enquiries</h3>
                         <h5 className="">mailAddress</h5>
                     </div>
@@ -30,11 +30,11 @@ const Contact = () => {
 
             <div className="w-full bg-orange-300 text-center flex items-center flex-col mt-8">
                 <h1 className="mt-4 text-[40px] font-bold ">Find us</h1>
-                <div className="md:w-[60%] sm:w-[75%] max-sm:[90%] flex items-center p-6 m-6 bg-white border rounded-lg max-sm:flex-col">
-                    <div className="w-[40%] h-full max-sm:w-full">
+                <div className="md:w-[60%] sm:w-[75%] max-sm:w-[90%] flex items-center p-6 m-6 bg-white border rounded-lg max-sm:flex-col">
+                    <div className="w-[40%] h-full max-sm:w-full max-sm:h-[300px] max-sm:mb-4">
                         comapny image here
                     </div>
-                    <div className="w-[60%] h-full ml-6  max-sm:w-full">
+                    <div className="w-[60%] h-full ml-4 max-sm:m-0  max-sm:w-full">
                         <p>company address</p>
                         <p>company address</p>
                         <p>company address</p>
@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
 
             <div className="flex mt-10 mb-10 p-2 items-center justify-start bg-white">
-                <div className="mx-auto w-full max-w-lg  border rounded-lg px-12 py-6 shadow-lg">
+                <div className="mx-auto w-full max-w-lg  border rounded-lg px-12 py-6 max-sm:px-4 shadow-lg">
                     <h1 className="text-4xl font-bold">Contact us</h1>
                     <p className="mt-3">Email us at help@domain.com or message us here:</p>
 

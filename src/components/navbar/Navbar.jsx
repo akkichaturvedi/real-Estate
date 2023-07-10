@@ -29,7 +29,7 @@ const Navbar = () => {
                         {/* <li className='cursor-pointer max-sm:mt-2'>Articals</li> */}
                         {/* <li className='cursor-pointer max-sm:mt-2'>Portfoli</li> */}
                         <Link to={"/contact"}><li className='cursor-pointer max-sm:mt-2'>Contact Us</li></Link>
-                        <li className='cursor-pointer max-sm:text-2xl max-sm:capitalize max-sm:text-cyan-400 max-sm:text-center max-sm:tracking-wide md:hidden max-sm:mt-10'>designed By ankur</li>
+                        {/* <li className='cursor-pointer max-sm:text-2xl max-sm:capitalize max-sm:text-cyan-400 max-sm:text-center max-sm:tracking-wide md:hidden max-sm:mt-10'>designed By ankur</li> */}
                     </ul>
                 </div>
             </div>
