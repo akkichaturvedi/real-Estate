@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../../style/style'
+import { Link } from 'react-router-dom'
 import { AiFillTwitterCircle, AiFillInstagram, AiFillGoogleCircle, AiFillLinkedin } from "react-icons/ai"
 
 const Footer = () => {
@@ -7,9 +8,9 @@ const Footer = () => {
         <div className={`w-full ${style.maxsmStyle} ${style.mdStyle} ${style.smStyle} bg-gradienet-[142deg] bg-gradient-to-r text-white from-[#474747] to-[#222222] p-10 max-sm:p-2 max-sm:flex-col`}>
 
             <div className='w-[45%] p-2 max-sm:w-full'>
-                <span className='tracking-widest font-extrabold'>
+                <Link to={"/"}><span className='tracking-widest font-extrabold'>
                     Logo
-                </span>
+                </span></Link>
                 <p className='mt-8 '>
                     is a general contractor company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.
                 </p>
@@ -33,7 +34,7 @@ const Footer = () => {
                 <div>
                     <ul className='list-none '>
                         <li className='mt-2 capitalize font-extrabold'>Company</li>
-                        <li className='cursor-pointer mt-3 capitalize'>About</li>
+                        <Link to={"/about"}><li className='cursor-pointer mt-3 capitalize'>About</li></Link>
                         <li className='cursor-pointer mt-3 capitalize'>How it works</li>
                         <li className='cursor-pointer mt-3 capitalize'>Term</li>
                         <li className='cursor-pointer mt-3 capitalize'>privacy policy</li>

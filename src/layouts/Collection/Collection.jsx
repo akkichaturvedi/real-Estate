@@ -13,7 +13,7 @@ const Collection = () => {
                     {
                         imageCollection.map((item, index) => {
                             return <img key={index} src={item.img} alt=""
-                                className='w-[300px] h-[400px] md:p-5 max-sm:p-2 max-sm:h-[200px] max-sm:w-[165px] transition-all hover:scale-105 hover:rotate-180'
+                                className='w-[300px] h-[400px] md:p-5 max-sm:p-2 max-sm:h-[200px] max-sm:w-[165px]'
                             />
                         })
                     }
